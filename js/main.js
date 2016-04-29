@@ -35,7 +35,7 @@ function show() {
 
     var html = '<ul>';
     for(var i=0; i<lista.length; i++) {
-        html += '<li>' + lista[i] + '<button class="remove" id="' + i  + '">x</button></li>';
+        html += '<li>' + lista[i] + '<button class="remove" id="' + i  + '"><i class="fa fa-trash-o" aria-hidden="true"></i></button></li>';
     };
     html += '</ul>';
 
